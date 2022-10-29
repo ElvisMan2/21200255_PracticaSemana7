@@ -13,10 +13,22 @@ public class Vuelo {
     private String fecha;
     private String hora;
     
+    public Vuelo(String codigo, String fecha, String hora){
+    
+    this.codigo= codigo;
+    this.fecha= fecha;
+    this.hora= hora;
+    
+    }
+            
+    
+    
+    
     public boolean venderAsiento(){
     
     return true;
     }
+    
     public Asiento[] asientosDisponibles(){
     
     

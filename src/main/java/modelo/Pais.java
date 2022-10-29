@@ -12,9 +12,25 @@ public class Pais {
     private String codigo;
     private String nombre;
     
+    public Pais(String codigo, String nombre){
+    this.codigo=codigo;
+    this.nombre=nombre;  
+    }
+   
+    public void setcodigo(String codigo){
+    this.codigo=codigo;
+    }
+    public void setnombre(String nombre){
+    this.nombre=nombre;  
+    }
     
-   // public Ciudades[] getCiudades(String codPais){
+    public String getcodigo(){
+    return codigo;
+    }
+    public String getnombre(){
+    return nombre;  
+    }
     
-        
-   // }
+    
+    
 }
