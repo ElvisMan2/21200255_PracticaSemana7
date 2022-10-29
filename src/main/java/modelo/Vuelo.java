@@ -12,4 +12,21 @@ public class Vuelo {
     private String codigo;
     private String fecha;
     private String hora;
+    
+    public boolean venderAsiento(){
+    
+    return true;
+    }
+    public Asiento[] asientosDisponibles(){
+    
+    
+    }
+    public boolean reservarAsiento(){
+    
+    return true;
+    }
+    public boolean cancelarAsiento(){
+    
+    return true;
+    }
 }

@@ -11,4 +11,10 @@ package modelo;
 public class Pais {
     private String codigo;
     private String nombre;
+    
+    
+   // public Ciudades[] getCiudades(String codPais){
+    
+        
+   // }
 }

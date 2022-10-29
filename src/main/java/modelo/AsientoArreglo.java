@@ -8,13 +8,14 @@ package modelo;
  *
  * @author Elvis
  */
-public class Ciudad {
-    private String codigo;
-    private String nombre;
-    private Aeropuerto aeropuerto;
-    
-    public Aeropuerto getAeropuertos(String codCiudad){
-    
-        return aeropuerto;
+public class AsientoArreglo {
+    private Asiento[] asientos;
+    private int indice;
+
+    public AsientoArreglo(int tam) {
+        this.asientos = new Asiento[tam];
+        this.indice = 0;
     }
+    
+    
 }
